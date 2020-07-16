@@ -2,7 +2,7 @@ function countdown (num) {
 let timer = setInterval( function (){
     num--;
     if(num <= 0) {
-        clearInterval(num);
+        clearInterval(timer);
         console.log('Done!');
     }
     else {
